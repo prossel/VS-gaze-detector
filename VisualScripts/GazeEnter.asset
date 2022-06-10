@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: GazeEnter
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"out","label":"out","summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"GazeEnter","summary":null,"pan":{"x":0.0,"y":-5.749817},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-366.0,"y":-54.0},"guid":"b6294558-3bf2-4db1-bf07-36de3d8d252e","$version":"A","$type":"Unity.VisualScripting.GraphInput"},{"defaultValues":{},"position":{"x":170.0,"y":-99.0},"guid":"981ed1bc-3442-4864-82ec-4852465d9f3e","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"12"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"OnGazeEnter","$type":"System.String"}},"position":{"x":-229.0,"y":-250.0},"guid":"d721f1de-43c0-4350-862f-ae6f753cd3ba","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"14"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"out","guid":"b313ca13-2e7e-4c5c-a824-87d59299630c","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
