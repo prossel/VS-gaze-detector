@@ -24,6 +24,8 @@ VSGazeTimer is deprecated. Using GazeTimer subgraph is much easier to use.
 
   ![Connect the new output](Screenshots/OnGazeTimerReplaceConnectOutput.png)
 
+* Remove the object variables "gazeDelay". Their values can be configured in the GazeTimer input paramater "Duration".
+
 ### Replace CustomEvents for OnGazeEnter and OnGazeExit
 
 This step is optional, but using the GazeEnter and GazeExit subgraphs is much more intuitive and they are available in the fuzzy finder, so using them avoids typos on CustomEvent names.
