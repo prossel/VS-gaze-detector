@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: RotateOnGazeStay
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"RotateOnGazeStay","summary":"Uses
+      GazeStay to rotate. \nImprovement over the deprecated RotateOnGaze script.
+      Using GazeStay subgraph simplifies the graph a lot.","pan":{"x":53.0,"y":203.0},"zoom":1.0,"elements":[{"type":"System.Single","value":{"$content":90.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":-67.0,"y":195.0},"guid":"df485ec3-d0df-4678-beb8-485420d4871f","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"9"},{"member":{"name":"deltaTime","parameterTypes":null,"targetType":"UnityEngine.Time","targetTypeName":"UnityEngine.Time","$version":"A"},"defaultValues":{},"position":{"x":-91.0,"y":310.0},"guid":"0893ba7c-f0d8-4b35-af38-225fd5459780","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"11"},{"defaultValues":{},"position":{"x":101.0,"y":162.0},"guid":"d6cdba20-a45d-4a59-a73b-83c98a89ebfd","$version":"A","$type":"Unity.VisualScripting.GenericMultiply","$id":"14"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["System.Single","System.Single","System.Single"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%xAngle":{"$content":0.0,"$type":"System.Single"},"%yAngle":{"$content":0.0,"$type":"System.Single"},"%zAngle":{"$content":0.0,"$type":"System.Single"}},"position":{"x":254.0,"y":72.0},"guid":"9ad06d79-fab7-459d-adfb-fa0018ad10ab","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"16"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-272.0,"y":73.0},"guid":"d3b0e300-9134-4402-8daa-96786cdb372e","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"19"},{"sourceUnit":{"$ref":"19"},"sourceKey":"out","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"841b36ae-07bc-478b-8a9b-d503007f9aaa","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"b","guid":"e402fea3-c498-47db-8eb8-7faefc09ce54","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"product","destinationUnit":{"$ref":"16"},"destinationKey":"%yAngle","guid":"3eb73c39-bac1-44fb-b1ba-04a49a1842d2","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"output","destinationUnit":{"$ref":"14"},"destinationKey":"a","guid":"172f1499-8745-4b7e-9fa3-746fe19f709b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 3ffcbf7a10f8e48259754ad08f98a0d1, type: 2}

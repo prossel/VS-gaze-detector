@@ -1,5 +1,11 @@
 # How to upgrade
 
+## Upgrade from 1.2 to 1.3
+
+### On prefixes
+
+Events have been renamed with an "On" prefix. There should be nothing to do to upgrade, but the documentation and screenshots may still display the old names.
+
 ## Upgrade from 1.1 to 1.2
 
 ### Replace VsGazeTimer by GazeTimer

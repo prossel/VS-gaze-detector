@@ -25,15 +25,15 @@ A gaze detector using Visual Scripting.
 
 * Add a script machine to an object your want to react on gaze events
 * Edit the graph
-* Use the fuzzy finder to add a GazeEnter (in Nesting) subgraph
-  ![Add GazeEnter](Screenshots/FuzzyAddGazeEnter.png)
-* Connect the GazeEnter node to whatever you want
-  ![Add GazeEnter](Screenshots/GazeEnter.png)
-* Repeat the same process for the GazeExit or GazeTimer
+* Use the fuzzy finder to add a OnGazeEnter (in Nesting) subgraph
+  ![Add OnGazeEnter](Screenshots/FuzzyAddGazeEnter.png)
+* Connect the OnGazeEnter node to whatever you want
+  ![Add OnGazeEnter](Screenshots/GazeEnter.png)
+* Repeat the same process for the OnGazeExit or OnGazeTimer
 
-### GazeTimer
+### OnGazeTimer
 
-The GazeTimer event triggers its output after a configurable delay (duration input parameter) has elapsed, following the GazeEnter event. It does not trigger if the GazeExit occurs before the duration.
+The OnGazeTimer event triggers its output after a configurable delay (duration input parameter) has elapsed, following the OnGazeEnter event. It does not trigger if the OnGazeExit occurs before the duration.
 
 When the repeat parameter is checked, then the timer will trigger again after each duration.
 
