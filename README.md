@@ -37,6 +37,10 @@ The OnGazeTimer event triggers its output after a configurable delay (duration i
 
 When the repeat parameter is checked, then the timer will trigger again after each duration.
 
+## Detailed tutorial
+
+[Douglas Edric Stanley](https://github.com/abstractmachine) wrote a [nice and detailed tutorial using VS-gaze-detector](https://abstractmachine.net/en/tutorials/unity-vr/gaze).
+
 ## History
 
 See [CHANGELOG.md](CHANGELOG.md)
