@@ -8,6 +8,18 @@ A gaze detector using Visual Scripting.
 
 ## Installation
 
+### With package manager
+
+* Unity, menu Window > Package Manager
+* Click the [ + ] button at top left
+* Add Package from git URL...
+* Enter this URL: `https://github.com/prossel/VS-gaze-detector.git`
+* When you want to update the package, just use the [ Update ] button from the package in the package manager.
+
+### Manually (deprecated)
+
+* Prefer the package manager install, its easier to update
+* This is deprecated and will probably not be supported for future releases
 * Download latest .unitypackage file from [https://github.com/prossel/VS-gaze-detector/releases](https://github.com/prossel/VS-gaze-detector/releases)
 * Add to your unity project
 
